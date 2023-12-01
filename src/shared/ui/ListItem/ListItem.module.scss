@@ -1,0 +1,37 @@
+.postContainer {
+  margin-bottom: 30px;
+  background-color: #e3dff2;
+  border-radius: 20px;
+  max-width: 90%;
+  padding: 20px;
+  box-shadow: 10px 5px 5px #8694a6;
+
+  .title {
+    font-size: 24px;
+  }
+
+  p {
+    margin: 10px 0;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  button {
+    background-color: #8694a6;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px #8694a6;
+    border: 1px solid #736c48;
+    position: relative;
+    width: 200px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  }
+}
